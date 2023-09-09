@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemed.io</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-logo.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="" class="link link--brand">
+            <img src="favicon-logo.png"> <span>Telemed.io</span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="" class="link link--nav">Services</a>
+            <a href="" class="link link--nav">Community</a>
+            <a href="" class="link link--nav">Why Telemed?</a>
+        </nav>
+        <span class="join">
+            <a href="" class="link link--login">Log In</a>
+            <a href="" class="link link--contact">Contact Us</a>
+            <button class="menu" id="view" onclick="viewM()">|||</button>
+            <button class="menu" id="hide" onclick="hideM()">X</button>
+        </span>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section class="about">
+            <span class="abtext abtext--subtitle">Get a life with telemed.io</span>
+            <span class="abtext abtext--title">Custom medicine based <br>on only your desease - <br>& no one esle's</span>
+            <span class="abtext abtext--subtitle2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam laborum necessitatibus tempora ut, ad harum officia? Reiciendis explicabo minus temporibus perferendis iusto, aliquam accusantium excepturi, odit doloremque id harum.</span>
+        </section>
+        <form action="https://formspree.io/f/xpzgreya" method="post">
+            <input type="text" id="name" name="name" placeholder="Full Name">
+            <input type="text" id="contact" name="contact" placeholder="Phone Number">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="submit" value="Book an appointment">
+        </form>
+    </main>
+</body>
+</html>
